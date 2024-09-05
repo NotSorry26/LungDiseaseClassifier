@@ -12,17 +12,17 @@ This project aims to develop a highly accurate and interpretable deep learning-b
    
 3. **Ensure Balanced Performance**: Ensure the model achieves a minimum F1-score of 0.9 across all classes, indicating balanced performance between precision and recall for each category.
    
-4. **Demonstrate Model Interpretability**: Utilize Grad-CAM visualisations to highlight clinically relevant areas in X-ray images, ensuring that model predictions are based on appropriate image regions.
+4. **Demonstrate Model Interpretability**: Utilise Grad-CAM visualisations to highlight clinically relevant areas in X-ray images, ensuring that model predictions are based on appropriate image regions.
 
 ## Project Workflow
 
 1. **Data Collection and Preprocessing**: 
    - Curate a diverse dataset of chest X-ray images from open-source repositories.
-   - Apply preprocessing steps such as resizing, normalization, and augmentation to improve data quality.
+   - Apply preprocessing steps such as resizing, normalisation, and augmentation to improve data quality.
 
 2. **Model Development**:
    - Implement various deep learning architectures, including EfficientNet B1 and DenseNet121, for classification tasks.
-   - Fine-tune models using transfer learning, adjust hyperparameters, and apply regularization techniques like early stopping to optimize performance.
+   - Fine-tune models using transfer learning, adjust hyperparameters, and apply regularisation techniques like early stopping to optimise performance.
 
 3. **Performance Evaluation**:
    - Evaluate models using metrics such as accuracy, F1-score, precision, and recall to ensure high diagnostic performance.
